@@ -1,0 +1,300 @@
+format: jb-book
+root: intro
+title: Introduction
+options:
+  numbered: true
+parts:
+
+
+# =======================Part I: Introduction======================
+#================================================================================
+- caption: 'Part I: Introduction'
+  numbered: true
+  chapters:
+  #---------------------------
+  - file: parts/part01/C1/chapter
+    title: Overview
+    sections:
+    - file: parts/part01/C1/S1/section
+
+  #---------------------------
+  - file: parts/part01/C2/chapter
+    title: Application Domains
+      
+
+
+
+
+
+
+
+# =======================Part II: Theory and Concepts===========================
+#===============================================================================
+- caption: 'Part II: Theory and Concepts'
+  numbered: true
+  chapters:
+
+  #---------------------------
+  - file: parts/part02/C1/chapter
+    title: Theory 1
+    sections:
+    - file: parts/part02/C1/S1/section
+
+  #---------------------------
+  - file: parts/part02/C2/chapter
+    title: Theory 2
+
+
+
+
+
+
+
+
+
+# ====================Part III: Physical Sensors==========================
+#==============================================================================
+- caption: 'Part III: Physical Sensors'
+  numbered: true
+  chapters:
+
+  #---------------------------
+  - file: parts/part03/C1/chapter
+    title: Tutorial 1 
+    sections:
+    - file: parts/part03/C1/S1/section
+
+  #---------------------------
+  - file: parts/part03/C2/chapter
+    title: Tutorial 2
+
+
+
+
+
+
+
+
+
+
+
+# =======================Part IV: Acoustic Sensors===========================
+#===============================================================================
+- caption: 'Part IV: Acoustic Sensors'
+  numbered: true
+  chapters:
+
+  #---------------------------
+  - file: parts/part04/C1/chapter
+    title: Tutorial 1 
+    sections:
+    - file: parts/part04/C1/S1/section
+
+  #---------------------------
+  - file: parts/part04/C2/chapter
+    title: Tutorial 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+# =======================Part V: Optical Sensors===========================
+#===============================================================================
+- caption: 'Part IV: Optical Sensors'
+  numbered: true
+  chapters:
+
+  #---------------------------
+  - file: parts/part05/C1/chapter
+    title: Tutorial 1 
+    sections:
+    - file: parts/part05/C1/S1/section
+      sections:
+      - file: parts/part05/C1/S2/section
+
+  #---------------------------
+  - file: parts/part05/C2/chapter
+    title: Tutorial 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+# =======================Part VI: Magnetic Sensors===========================
+#===============================================================================
+- caption: 'Part V: Magnetic Sensors'
+  numbered: true
+  chapters:
+
+  #---------------------------
+  - file: parts/part06/C1/chapter
+    title: Tutorial 1 
+    sections:
+    - file: parts/part06/C1/S1/section
+
+  #---------------------------
+  - file: parts/part06/C2/chapter
+    title: Tutorial 2
+
+
+
+
+
+
+
+
+
+
+# =======================Part VII: Electrical Sensors===========================
+#===============================================================================
+- caption: 'Part VI: Magnetic Sensors'
+  numbered: true
+  chapters:
+
+  #---------------------------
+  - file: parts/part07/C1/chapter
+    title: Tutorial 1 
+    sections:
+    - file: parts/part07/C1/S1/section
+
+  #---------------------------
+  - file: parts/part07/C2/chapter
+    title: Tutorial 2
+
+
+
+
+
+
+
+
+
+
+
+# =======================Part VIII: Biological Sensors===========================
+#===============================================================================
+- caption: 'Part VIII: Biological Sensors'
+  numbered: true
+  chapters:
+
+  #---------------------------
+  - file: parts/part08/C1/chapter
+    title: Tutorial 1 
+    sections:
+    - file: parts/part08/C1/S1/section
+
+  #---------------------------
+  - file: parts/part08/C2/chapter
+    title: Tutorial 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# =======================Part IX: Chemical Sensors===========================
+#===============================================================================
+- caption: 'Part IX: Chemical Sensors'
+  numbered: true
+  chapters:
+
+  #---------------------------
+  - file: parts/part09/C1/chapter
+    title: Tutorial 1 
+    sections:
+    - file: parts/part09/C1/S1/section
+
+  #---------------------------
+  - file: parts/part09/C2/chapter
+    title: Tutorial 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# =======================Part X: Environmental Sensors===========================
+#===============================================================================
+- caption: 'Part X: Environmental Sensors'
+  numbered: true
+  chapters:
+
+  #---------------------------
+  - file: parts/part10/C1/chapter
+    title: Estimating Air Pollution in Colombia
+    sections:
+    - file: parts/part10/C1/AirQualityDesignPhase/Air_Quality_Design_Phase.ipynb
+
+  #---------------------------
+  - file: parts/part10/C2/chapter
+    title: Tutorial 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Appendix  
+- caption: 'Appendix'
+  chapters:
+  - file: parts/part0X/intro
+    title: Chapter Name
+    sections:
+    - file: parts/part0X/C1/intro
+      title: Section Intro
+      sections:
+      - file: parts/part0X/C1/S1/section-1
+        title: Section 1
+      - file: parts/part0X/C1/S2/section-2
+        title: Section 2
+
