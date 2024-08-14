@@ -36,19 +36,23 @@ parts:
 
   #---------------------------
   - file: parts/part02/C1/chapter
-    title: Theory 1
-    sections:
-    - file: parts/part02/C1/S1/section
+    title: Missing Data
+
 
   #---------------------------
   - file: parts/part02/C2/chapter
-    title: Theory 2
+    title: Partial Data
 
 
+  #---------------------------
+  - file: parts/part02/C3/chapter
+    title: Sensor Types
+    sections:
+    - file: parts/part02/C3/S1/section
+      title: Particulate Matter Sensors
 
-
-
-
+    - file: parts/part02/C3/S2/section
+      title: Ozone (O3) Sensors
 
 
 
@@ -255,11 +259,11 @@ parts:
   - file: parts/part10/C1/chapter
     title: Estimating Air Pollution in Colombia
     sections:
+    - file: parts/part10/C1/AirQualityExplorePhase/Air_Quality_Explore_Phase.ipynb
+      title: Air Quality Explore Phase
     - file: parts/part10/C1/AirQualityDesignPhase/Air_Quality_Design_Phase.ipynb
+      title: Air Quality Design Phase
 
-  #---------------------------
-  - file: parts/part10/C2/chapter
-    title: Tutorial 2
 
 
 
