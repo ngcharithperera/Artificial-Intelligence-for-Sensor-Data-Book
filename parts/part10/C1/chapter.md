@@ -1,7 +1,126 @@
 # Estimating Air Pollution in Colombia
 
 
-<h2>Air Quality: Design Phase</h2>
+<h2> Air Quality: Explore Phase </h2>
+
+<div class="ui red segment">
+  <a class="ui red ribbon label">Data Loading and Initial Exploration</a>
+
+  **Objective:** Load air quality data into the environment and perform an initial exploration to understand the dataset's structure and contents.
+
+  **Tasks:**
+  - **Load the dataset** using `pandas` and display the first few rows to get an overview.
+  - **Check for missing values** across the dataset using `.isnull().sum()` to identify columns with incomplete data.
+  - **Explore basic statistics** of the dataset with `.describe()` to understand the distribution of data.
+</div>
+
+<div class="ui orange segment">
+  <a class="ui orange ribbon label">Data Cleaning and Preprocessing</a>
+
+  **Objective:** Prepare the dataset for deeper analysis by addressing missing data and ensuring consistency.
+
+  **Tasks:**
+  - **Calculate the total number of records and the percentage of missing values** in each column to assess the extent of missing data.
+  - **Drop or impute missing values** based on the calculated percentages to ensure the dataset is suitable for analysis.
+  - **Standardize data formats** and correct any inconsistencies in the dataset.
+</div>
+
+<div class="ui yellow segment">
+  <a class="ui yellow ribbon label">Exploratory Data Analysis (EDA)</a>
+
+  **Objective:** Gain insights into the data by visualizing key features and identifying trends, patterns, and anomalies.
+
+  **Tasks:**
+  - **Visualize key features** such as pollutant levels over time using time series plots.
+  - **Examine the distribution** of pollutants and other variables to identify outliers or unusual trends.
+  - **Analyze relationships** between different variables to understand correlations or dependencies.
+</div>
+
+<div class="ui blue segment">
+  <a class="ui blue ribbon label">Feature Engineering</a>
+
+  **Objective:** Enhance the dataset with new features that can improve the analysis or model performance.
+
+  **Tasks:**
+  - **Create new features** based on existing data, such as aggregating pollutant levels over different time windows.
+  - **Transform variables** if necessary to meet the assumptions of modeling techniques or to highlight important patterns.
+  - **Handle categorical variables** by encoding them into numerical formats suitable for analysis.
+</div>
+
+<div class="ui purple segment">
+  <a class="ui purple ribbon label">Modeling Preparation</a>
+
+  **Objective:** Prepare the dataset for machine learning modeling by selecting relevant features and splitting the data.
+
+  **Tasks:**
+  - **Select features** that are most relevant to the prediction task, based on the exploratory analysis.
+  - **Split the dataset** into training and testing sets to evaluate model performance.
+  - **Normalize or scale data** to ensure that models can learn effectively from the dataset.
+</div>
+
+<div class="ui pink segment">
+  <a class="ui pink ribbon label">Modeling and Evaluation</a>
+
+  **Objective:** Develop and evaluate predictive models for air quality forecasting.
+
+  **Tasks:**
+  - **Train models** using the prepared dataset and evaluate their performance using appropriate metrics.
+  - **Compare different models** to determine which performs best on the task at hand.
+  - **Tune hyperparameters** to improve model performance where necessary.
+</div>
+
+<div class="ui brown segment">
+  <a class="ui brown ribbon label">Results Visualization and Interpretation</a>
+
+  **Objective:** Visualize the results of the modeling and provide interpretations of the findings.
+
+  **Tasks:**
+  - **Plot predictions** against actual values to assess the accuracy of the models.
+  - **Visualize model performance metrics** such as error distributions and comparison charts.
+  - **Interpret results** in the context of air quality forecasting, discussing the implications and potential applications.
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<br> <br> <br> <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<h2> Air Quality: Design Phase </h2>
 
 <div class="ui red segment">
   <a class="ui red ribbon label">Data Loading and Preprocessing</a>

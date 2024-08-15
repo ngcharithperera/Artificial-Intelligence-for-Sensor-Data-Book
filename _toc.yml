@@ -36,12 +36,12 @@ parts:
 
   #---------------------------
   - file: parts/part02/C1/chapter
-    title: Missing Data
+    title: Missing and Partial Data
 
 
   #---------------------------
   - file: parts/part02/C2/chapter
-    title: Partial Data
+    title: 
 
 
   #---------------------------
@@ -263,6 +263,10 @@ parts:
       title: Air Quality Explore Phase
     - file: parts/part10/C1/AirQualityDesignPhase/Air_Quality_Design_Phase.ipynb
       title: Air Quality Design Phase
+    - file: parts/part10/C1/AirQualityImplementPhase/Design_and_Implement_Phase.ipynb
+      title: Air Quality Implement Phase
+    - file: parts/part10/C1/datasheet
+      title: Datasheet
 
 
 
